@@ -1,0 +1,39 @@
+.sec1_div{
+    background-color: rgb(245, 240, 230);
+}
+.sec2_div{
+    background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
+    color: white;
+}
+#navbar li a:hover {
+    background-color: #182b49;
+    color: white!important;
+}
+#uclogo img{
+    max-width:400px;
+    height: auto;
+}
+#navbar{
+    li{
+        display: inline;
+        a{
+            font-size: 28px;
+        }
+    }
+    position: sticky;
+    top: 0;
+    background-color: aqua;
+}
+.txt_row .txt_col{
+    background-color: #182b49;
+    color:white;
+    max-height: 400px;
+    overflow-y: auto;
+}
+.txt_row {
+    background-color: rgb(245, 240, 230);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 10px;
+}

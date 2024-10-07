@@ -10,21 +10,6 @@
 .sec3_div{
     background-color: rgb(245, 240, 230);
     display: inline-block;
-
-    .txt_row .txt_col{
-        background-color: #182b49;
-        color:white;
-        max-height: 400px;
-        overflow-y: auto;
-        display: inline-block;
-        font-size: 24px;
-    }
-    .txt_row {
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        gap: 25px;
-        padding: 10px;
-    }
 }
 .sec4_div{
     background-image: url("https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg");
@@ -72,10 +57,24 @@ p{
 label{
     padding: 10px;
 }
+.txt_row .txt_col{
+    background-color: #182b49;
+    color:white;
+    max-height: 400px;
+    overflow-y: auto;
+    display: inline-block;
+    font-size: 24px;
+}
+.txt_row {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    padding: 10px;
+}
 
 @media screen and (max-width: 800px) {
     a {
-        display: none; /* Hide anchor links on small screens */
+        display: none; 
     }
     #uclogo img{
         max-width:75%;
@@ -88,6 +87,7 @@ label{
         font-size: 20px;
     }
     .txt_row {
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
     #sec4{

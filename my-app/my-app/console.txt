@@ -1,0 +1,10 @@
+
+> my-app@0.1.0 test
+> react-scripts test --watchAll --testMatch **/src/**/*.test.tsx
+
+
+No failed test found.
+
+No failed test found.
+
+
